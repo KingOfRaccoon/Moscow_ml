@@ -1,5 +1,6 @@
 site:
   title: "Todo"
+  routePrefix: "Todo"
 
 server:
   files:
@@ -9,6 +10,8 @@ server:
       api: "build/libs/todo.jar"
     prod:
       script: "build/dist/js/productionExecutable/todo.js"
-      siteRoot: ".kobweb/site"
+      siteRoot: "../docs"
+#      siteRoot: ".kobweb/site"
+
 
   port: 8080
