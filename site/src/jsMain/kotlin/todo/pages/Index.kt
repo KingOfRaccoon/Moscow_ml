@@ -73,7 +73,7 @@ fun HomePage() {
     }
 
     Column(
-        modifier = Modifier.fillMaxSize().minWidth(600.px),
+        modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top,
     ) {
